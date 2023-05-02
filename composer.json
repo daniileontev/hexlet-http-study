@@ -1,0 +1,24 @@
+{
+    "name": "daniil/hexlet-http-study",
+    "description": "http basics",
+    "autoload": {
+        "psr-4": {
+            "Daniil\\HexletHttpStudy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "daniil.leontev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.11",
+        "httpsoft/http-message": "^1.0",
+        "httpsoft/http-server-request": "^1.0",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.0",
+        "guzzlehttp/psr7": "^2.5",
+        "laminas/laminas-diactoros": "^2.25"
+    }
+}
